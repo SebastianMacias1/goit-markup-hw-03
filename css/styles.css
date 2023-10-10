@@ -17,14 +17,24 @@
 
 .conteiner {
     width: 1158px;
+    
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
 }
 
+.header-div{
+    display: flex;
+}
 .header {
     width: 1440px;
     height: 72px;
     flex-shrink: 0;
     border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
 background: var(--WHITE, #FFF);
+}
+.nav {
+    display: flex;
+    align-items: center;
 }
 
 
@@ -45,8 +55,21 @@ font-weight: 800;
 line-height: 1.17; /* 116.667% */
 letter-spacing: 0.03em;
 text-transform: uppercase;
+margin-right: 76px;
+
 
 }
+
+.list-menu {
+display: flex;
+gap: 40px;
+}
+
+.list-address {
+display: flex;
+gap: 40px;
+}
+
 .link{
     text-decoration:none;
     

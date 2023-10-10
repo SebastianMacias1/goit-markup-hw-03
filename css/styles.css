@@ -15,16 +15,19 @@
 --text-image-color: var(--SLATE, #434455);
 }
 
-.conteiner {
-    width: 1158px;
-    
-    margin: 0 auto;
-    padding: 0 15px 0 15px;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.header-div{
+.conteiner {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
     display: flex;
 }
+
+
 .header {
     width: 1440px;
     height: 72px;

@@ -461,3 +461,7 @@ img {
     margin-bottom: 72px;
 }
 
+.list-address {
+    display: flex;
+    gap: 40px;
+}

@@ -79,6 +79,7 @@ gap: 40px;
 .link{
     text-decoration:none;
     margin-bottom: 16px;
+    display: inline-block;
     }
 
     

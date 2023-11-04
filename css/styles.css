@@ -25,7 +25,7 @@
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px 0 15px;
-    display: flex;
+   
 }
 
 
@@ -380,18 +380,21 @@ display: inline-block;
     letter-spacing: 0.04em;
     background: var(--CLOUD, #F4F4FD);
     cursor: pointer;
-    padding-bottom: 12px; padding-left: 24px; padding-right: 24px;
+    padding:12px 24px;
     border: 1px solid var(--CORNFLOWER, #E7E9FC);
+    border-radius: 4px;
 
 }
 .filters-button:hover{
     color: #FFFFFF;
     background-color: #404BBF;
+    border: 1px solid transparent;
 }
 
 .filters-button:focus{
     background-color: #404BBF;
     color: #FFFFFF;
+    border: 1px solid transparent;
 }
 .filters-button:active{
     background-color: #404BBF
@@ -464,4 +467,8 @@ img {
 .list-address {
     display: flex;
     gap: 40px;
+}
+
+.list-work {
+    width: calc((100% - 48px) / 3);
 }

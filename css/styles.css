@@ -27,7 +27,9 @@
     padding: 0 15px 0 15px;
    
 }
-
+.conteiner-header {
+    display:flex;
+}
 
 .header {
     width: 1440px;
@@ -69,11 +71,13 @@ margin-right: 76px;
 display: flex;
 gap: 40px;
 padding: 24px 0;
+list-style: none;
 }
 
 .list-address {
 display: flex;
 gap: 40px;
+list-style: none;
 }
 
 .link{
@@ -99,6 +103,7 @@ text-transform: uppercase;
 list-style: none;
 margin: 0;
 padding: 0;
+list-style: none;
 }
 
 .first{
@@ -211,10 +216,12 @@ border-radius: 4px;
 .list-section-two {
     display: flex;
     gap: 24px; 
+    list-style: none;
 }
 
 .list-item-two {
     width: calc((100% - 72px) / 4);
+    list-style: none;
 
 }
 
@@ -289,10 +296,12 @@ margin-bottom: 72px;
 .list-section-three {
     display: flex;
     gap: 24px;
+    list-style: none;
 }
 
 .list-item-three {
     width: calc((100% - 48px) / 3);
+    list-style: none;
 }
 
 
@@ -300,7 +309,7 @@ margin-bottom: 72px;
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
-
+    list-style: none;
 }
 
 .name {
@@ -362,7 +371,8 @@ display: inline-block;
     display: flex;
     justify-content: center;
     gap: 24px;
-    margin-bottom: 72px;
+    
+    list-style: none;
 }
 
 
@@ -418,6 +428,7 @@ letter-spacing: 0.4px;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    list-style: none;
  }
 
  .image-div {
@@ -462,13 +473,16 @@ img {
     justify-content: center;
     gap: 24px;
     margin-bottom: 72px;
+    list-style: none;
 }
 
 .list-address {
     display: flex;
     gap: 40px;
+    list-style: none;
 }
 
 .list-work {
     width: calc((100% - 48px) / 3);
+    list-style: none;
 }

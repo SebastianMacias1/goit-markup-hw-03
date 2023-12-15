@@ -28,7 +28,7 @@
    
 }
 .conteiner-header {
-    display:flex;
+    display: flex;
 }
 
 .header {
@@ -371,7 +371,6 @@ display: inline-block;
     display: flex;
     justify-content: center;
     gap: 24px;
-    
     list-style: none;
 }
 

@@ -36,7 +36,11 @@
     height: 72px;
     flex-shrink: 0;
     border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
-background: var(--WHITE, #FFF);
+    background: var(--WHITE, #FFF);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 .nav {
     display: flex;
@@ -48,6 +52,8 @@ body {
     font-family: 'Roboto',sans-serif;
     color: #434455;
     background-color: var(--background-body-color);
+    width: 1440px;
+    height: 2592px;
 
 }
 

@@ -30,6 +30,11 @@ ul {
 .list {
     list-style: none;
 }
+
+.link{
+    text-decoration:none;
+   
+    }
 .container {
     max-width: 1158px;
     margin: 0 auto;
@@ -64,8 +69,7 @@ body {
     font-family: 'Roboto',sans-serif;
     color: #434455;
     background-color: var(--background-body-color);
-    width: 1440px;
-    height: 2592px;
+    
 
 }
 
@@ -99,15 +103,6 @@ display: flex;
 gap: 40px;
 justify-content: space-between;
 }
-
-.link{
-    text-decoration:none;
-    margin-bottom: 16px;
-    display: inline-block;
-    }
-
-    
-
 
 .span{
     color: var(--NAVY-BLUE, #2E2F42);
@@ -173,9 +168,11 @@ color:#404bbf
 .section-first {
     background: var(--NAVY-BLUE, #2E2F42);
     padding: 188px 0;
-    width: 1440px;
-    height: 600px;
-    flex-shrink: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1440px;
+    margin: auto;
 }
 
 .heading-one {
@@ -190,41 +187,35 @@ color:#404bbf
     line-height: 1.07; /* 107.143% */
     letter-spacing: 0.02em;
     max-width: 496px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .button {
     color: var(--WHITE, #FFF);
 
 /* Button Text */
-font-family: "Roboto",sans-serif;
+font-family: inherit;
 font-size: 16px;
 font-style: normal;
 font-weight: 500;
 line-height: 1.5; /* 150% */
 letter-spacing: 0.04em;
-display: inline-block;
+display: block;
 min-width: 169px;
 height: 56px;
 border: none;
 border-radius: 4px;
-padding: 16px 32px;
-align-items: flex-start;
-gap: 10px;
-
+cursor: pointer;
+margin: 0 auto;
+margin-top: 48px;
+background-color: var(--IRIS, #4D5AE5);
 }
-.button {
-    cursor: pointer;
-}
-.button { 
-    background-color: var(--IRIS, #4D5AE5);
-}
-
-.button:hover {
-    background-color: #404BBF;
-}
+.button:hover,
 .button:focus {
     background-color: #404BBF;
 }
+
 
 
 .section-two {
@@ -237,7 +228,7 @@ gap: 10px;
 .list-section-two {
     display: flex;
     gap: 24px; 
-    list-style: none;
+
 }
 
 .list-item-two {
@@ -258,19 +249,12 @@ font-weight: 500;
 line-height: 1.2; /* 120% */
 letter-spacing: 0.02em;
 margin-bottom: 8px;
-text-align: center;
 }
 
 .p-one{
     color: var(--SLATE, #434455);
-
-/* Body */
-font-family: 'Roboto';
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 1.5; /* 150% */
-letter-spacing: 0.32px;
+    font-size: 16px;
+    line-height: 1.5; /* 150% */
 }
 
 .paragraph {

@@ -340,6 +340,7 @@ flex-shrink: 0;
 .footer {
     background: var(--NAVY-BLUE, #2E2F42);
     padding: 100px 0;
+    margin: auto;
 }
 .span-footer {
     color: #f4f4fd;

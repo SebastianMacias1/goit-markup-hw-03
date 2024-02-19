@@ -472,3 +472,7 @@ img {
     width: calc((100% - 48px) / 3);
     list-style: none;
 }
+.p-portfolio {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}

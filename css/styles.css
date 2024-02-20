@@ -330,6 +330,7 @@ flex-shrink: 0;
 }
 .footer {
     background: var(--NAVY-BLUE, #2E2F42);
+    padding: 100px 0 100px;
     /* padding: 100px 0;
     margin: auto; */
 }
@@ -471,7 +472,7 @@ img {
     letter-spacing: 0.02em;
 }
 
-.heading-names {
+.heading-name {
     margin-bottom: 8px;
     text-align: center;
 }
@@ -493,6 +494,3 @@ img {
     padding: 32px 16px;
 }
 
-.footer-container {
-    padding: 100px 0 100px;
-}

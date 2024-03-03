@@ -237,7 +237,7 @@ font-weight: 500;
 line-height: 1.2; /* 120% */
 letter-spacing: 0.02em;
 margin-bottom: 8px;
-text-align: center;
+text-align: left;
 }
 
 .p-one{
@@ -508,4 +508,13 @@ border-right: 1px solid var(--cornflower);
 padding: 32px 16px;
 width: 360px;
 height: 120px;
+}
+.heading-three-name {
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 20px;
+line-height: 120%;
+letter-spacing: 0.02em;
+text-align: center;
+color: var(--navy-blue);
 }

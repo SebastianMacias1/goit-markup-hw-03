@@ -266,7 +266,7 @@ margin-bottom: 8px;
 
 }
 .section-three {
-    padding: 120px 0 120px;
+    padding: 120px 0;
 
 }
 
@@ -278,7 +278,7 @@ font-size: 36px;
 font-weight: 700;
 line-height: 1.11; /* 111.111% */
 letter-spacing: 0.02em;
-margin-bottom: 72px;
+margin-bottom: 20px;
 text-align: center;
 text-transform: capitalize;
 }
@@ -481,17 +481,21 @@ img {
     text-align: center;
 }
 
-.h-portfolio {
-    margin-bottom: 72px;
-}
+
 
 .list-our-portfolio {
-    gap: 24px;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .portfolio-point {
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    flex: 1 0 360px;
+    text-align: center;
 }
 
 .name {
